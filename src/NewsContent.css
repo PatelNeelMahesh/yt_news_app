@@ -1,0 +1,12 @@
+.loadMore {
+  cursor: pointer;
+  background-color: #ffffff;
+  padding: 7px 25px;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 175px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}

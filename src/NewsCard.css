@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.newsCard {
+  /* display: flex; */
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+}
+
+.newsText {
+  padding: 0 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.author {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 22px;
+  color: gray;
+}
+
+.lowerNewsText {
+  display: flex;
+  flex: 1;
+  padding: 10px 0;
+}
+
+.readmore {
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.newsImage {
+  object-fit: cover;
+  width: 300px;
+  height: 270px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 22px;
+  color: #44444d;
+}
+
+@media (max-width: 800px) {
+  .newsCard {
+    flex-direction: column;
+    width: 100%;
+  }
+  .newsImage {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+}
